@@ -1,11 +1,9 @@
-I apologize for the confusion! Looking at the markdown I provided, the headers ARE actually there with the # symbols. Let me show you what might be happening and provide an enhanced version with more visual styling elements:
-
-🌤️ Building a Weather MCP Server: Technical Deep Dive
+# 🌤️ Building a Weather MCP Server: Technical Deep Dive
 
 A comprehensive guide to building a production-ready Model Context Protocol server
 Author: Herman Adu | Last Updated: January 2025
 
-📑 Table of Contents
+## 📑 Table of Contents
 
 🎯 Overview
 🏗️ Architecture
@@ -18,14 +16,16 @@ Author: Herman Adu | Last Updated: January 2025
 📚 Lessons Learned
 🔮 Future Enhancements
 
-🎯 Overview
+## 🎯 Overview
+
 This project implements a Model Context Protocol (MCP) server that provides weather information through three distinct tools. It integrates with WeatherAPI.com for global weather coverage and the National Weather Service (NWS) API for US-specific weather alerts.
 🤔 What is MCP?
 The Model Context Protocol is a standardized way for AI assistants (like Claude) to interact with external tools and data sources. This server exposes weather data in a format that AI models can understand and use naturally in conversations.
 🎯 Project Goals
 GoalStatusProvide real-time weather information globally✅ CompleteSupport 5-day weather forecasts✅ CompleteDeliver US weather alerts✅ CompleteType-safe TypeScript implementation✅ CompleteEasy integration with AI assistants✅ CompleteProduction-ready error handling✅ Complete
 
-🏗️ Architecture
+## 🏗️ Architecture
+
 🛠️ Technology Stack
 ComponentTechnologyVersionPurposeLanguageTypeScript5.7+Type safety and modern JS featuresRuntimeNode.js18+ES Module supportProtocolMCP SDK1.0.4AI assistant communicationWeather APIWeatherAPI.comv1Global weather data & geocodingAlerts APINWS API-US weather alerts (free)Build ToolTypeScript Compiler5.7Transpile to JavaScript
 📁 Project Structure
@@ -261,7 +261,7 @@ Purpose: Get 5-day weather forecast with detailed daily breakdowns
 
 Input Schema:
 typescriptCopy{
-name: "get_forecast",
+name: "get*forecast",
 description: "Get 5-day weather forecast for any location worldwide",
 inputSchema: {
 type: "object",
@@ -276,7 +276,7 @@ required: ["name"]
 }
 Output Format:
 jsonCopy{
-"location": { /_ same as current weather _/ },
+"location": { /* same as current weather \_/ },
 "forecast": [
 {
 "date": "2025-01-09",
