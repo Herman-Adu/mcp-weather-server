@@ -1,5 +1,3 @@
-# A Simple MCP weather Server written in TypeScript
-
 # Weather MCP Server 🌤️ written in TypeScript
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that provides real-time weather information, forecasts, and alerts using the National Weather Service API and WeatherAPI.com.
