@@ -115,6 +115,7 @@ Copy
   "include": ["src/**/*"],        // ✅ Removed test files
   "exclude": ["node_modules", "dist", "build"]
 }
+
 Key Settings:
 
 module: "Node16" - ES modules with .js extensions
@@ -138,7 +139,8 @@ NWS API (Secondary - US Only)
 ✅ Official US government data
 ⚠️ US locations only
 
-API Helper Functions
+API Helper Functions:
+
 typescriptCopy// WeatherAPI.com requests
 async function makeWeatherAPIRequest(endpoint: string, params: Record<string, string>) {
   const apiKey = process.env.WEATHER_API_KEY;
