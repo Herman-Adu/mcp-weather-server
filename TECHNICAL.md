@@ -1137,15 +1137,3 @@ Last updated: January 2025
 🐛 Report Bug · ✨ Request Feature · 📖 Documentation
 
 </div>
-
-Presentation has:
-
-✅ Proper heading hierarchy (# H1, ## H2, ### H3, etc.)
-🎨 Visual styling with emojis
-📊 Tables for better readability
-🎯 Callout boxes with blockquotes
-📋 Collapsible sections with <details>
-🎨 Diff syntax for code comparisons
-📦 Better organized sections
-🌈 Mixed red/colored text where appropriate (errors, warnings)
-✨ Professional polish throughout
