@@ -189,25 +189,25 @@ Project Structure
 
 weather-server/
 ├── src/
-│   └── index.ts          # TypeScript source code
+│   └── index.ts        # TypeScript source code
 ├── build/
-│   └── index.js          # Compiled JavaScript (generated)
-├── .env                  # Environment variables (not in git)
-├── .env.example          # Example environment file
-├── .gitignore           # Git ignore rules
-├── package.json         # Dependencies and scripts
-├── tsconfig.json        # TypeScript configuration
+│   └── index.js        # Compiled JavaScript (generated)
+├── .env                # Environment variables (not in git)
+├── .env.example        # Example environment file
+├── .gitignore          # Git ignore rules
+├── package.json        # Dependencies and scripts
+├── tsconfig.json       # TypeScript configuration
 └── README.md           # This file
 
 Scripts
 
 bash
 
-npm run dev            # Run in development mode with tsx
-npm run build          # Build TypeScript to JavaScript
-npm start              # Run built JavaScript version
-npm run inspect        # Test with MCP Inspector (TypeScript)
-npm run inspect-built  # Test with MCP Inspector (JavaScript)
+npm run dev             # Run in development mode with tsx
+npm run build           # Build TypeScript to JavaScript
+npm start               # Run built JavaScript version
+npm run inspect         # Test with MCP Inspector (TypeScript)
+npm run inspect-built   # Test with MCP Inspector (JavaScript)
 
 APIs Used
 
