@@ -18,6 +18,11 @@
 - [📦 Deployment](#-deployment)
 - [📚 Lessons Learned](#-lessons-learned)
 - [🔮 Future Enhancements](#-future-enhancements)
+- [📊 Performance Benchmarks](#-performance-benchmarks)
+- [🔧 Troubleshooting Guide](#-troubleshooting-guide)
+- [🤝 Contributing Guidelines](#-contributing-guidelines)
+- [📚 Resources](#-resources)
+- [🎯 Conclusion](#-conclusion)
 
 ---
 
